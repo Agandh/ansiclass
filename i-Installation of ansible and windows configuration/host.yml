@@ -1,0 +1,25 @@
+---
+mywin1:
+ hosts:
+  win-rahul:
+   ansible_user: administrator
+   ansible_password: ntms123#
+   ansible_winrm_transport: ntlm
+   ansible_connection: winrm
+   ansible_port: 5985
+   ansible_winrm_server_cert_validation: ignore
+ vars:
+  
+mywin2:
+ hosts:
+  win-rahul:
+
+ vars:
+   ansible_user: administrator
+   ansible_password: ntms123#
+   ansible_winrm_transport: ntlm
+   ansible_connection: winrm
+   ansible_port: 5985
+   ansible_winrm_server_cert_validation: ignore
+
+...  
